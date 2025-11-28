@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* This defines section margins */
+section {
+    margin: 20px 60px;
+}
+
+/* Below are rulesets for the application form. */
+.form {
+    background-color: lightblue;
+    padding: 20px 40px;
+    overflow: scroll;
+    border: 1px solid;
+    border-radius: 25px;
+    min-height: 1000px;
+    max-height: 1500px;
+    
+}
+/* Here is dictated how the image and video will appear */
+ img{
+    width: 100%;
+    margin: 0 auto;
+    opacity: 85%;
+    margin-bottom: 25px;
+    
+}
+
+ embed {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+/* This determines how the bottom of the page will appear */
+footer {
+    margin-left: 56px;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+/* Title and nav rulesets are here */
+#pagetitle {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+h1, nav {
+    margin: 20px 100px;
+    text-align: center;
+}
+
+header, h1 {
+    padding: 10px, 10px;
+}
+
+/* Here are pseudoclasses for the links in navigation section */
+a:hover {
+    color: green;
+}
+a:active {
+    color: black;
+}
+
+
+/* Padding for the input section of the forn */
+.form input {
+    padding: 10px;
+}
+
+/* This determines the background for the page and scalability */
+body {
+    background-image:linear-gradient(#dddddd, #13368d);
+    max-width: 800px;
+    min-width: 250px;
+    margin: 0 auto;
+}
+
+#media {
+    color: white !important;
+    text-align: center;
+}
+/* Referral code is hidden from view */
+#referral {
+    visibility: hidden;
+}
+
+
+h1.maintitle {
+    text-transform: uppercase;
+}
+
+/* "Send"-buttom is larger and changes color when hovered over */
+input[type="submit"]:hover {
+    transform: scale(1.1);
+    color: lightskyblue;
+}
+
